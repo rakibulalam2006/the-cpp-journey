@@ -9,6 +9,7 @@ int main()
     {
         cin >> a[i];
     }
+    // sort(starting,ending);      //ascendin
     // sort(a, a + n);      //ascendin
     sort(a, a + n, greater<int>()); // descending
     for (int i = 0; i < n; i++)
